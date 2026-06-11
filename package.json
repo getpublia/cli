@@ -1,0 +1,22 @@
+{
+  "name": "publia-cli",
+  "version": "0.1.0",
+  "description": "Command line client for uploading files to Publia.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "publia": "bin/publia.js"
+  },
+  "files": [
+    "bin",
+    "src/cli",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check bin/publia.js && node --check src/cli/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
